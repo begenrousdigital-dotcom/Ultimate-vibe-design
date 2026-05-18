@@ -1,0 +1,8 @@
+{
+  "name": "claude-design-skills",
+  "version": "1.0.0",
+  "description": "Complete design intelligence system. Stops AI slop. Teaches Claude what award-winning design actually looks like via curated Awwwards research, anti-bias engineering rules, and intent-first philosophy.",
+  "author": "Greg Annas (synthesis from public sources)",
+  "license": "MIT",
+  "type": "skill-collection"
+}

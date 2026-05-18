@@ -1,9 +1,31 @@
 # Claude Design Skills
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](CHANGELOG.md)
+[![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-d97757.svg)](https://github.com/anthropics/claude-code)
+[![Made in Switzerland](https://img.shields.io/badge/made%20in-Switzerland-red.svg)](https://begenerous.digital)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 > A complete design intelligence system for Claude Code and other AI coding agents.
 > Stops the AI from producing generic, template-shaped output. Teaches it what *good* actually looks like — grounded in real award-winning work, not theory.
 
 This is a synthesis of the strongest public design-skill repositories, distilled into a coherent system and grounded in a curated study of Awwwards Sites of the Day across categories. Most "design skills" stack rules without philosophy; this one starts with the **why** (intent), then enforces the **how** (rules), then proves it with **what** (real examples).
+
+---
+
+## Quick start
+
+```bash
+git clone https://github.com/begenrousdigital-dotcom/Ultimate-vibe-design.git ~/.claude/plugins/claude-design-skills
+```
+
+Then in any Claude Code project, the skills will auto-load. Or reference selectively in your project's `CLAUDE.md`:
+
+```markdown
+Use the skills in ~/.claude/plugins/claude-design-skills/skills/ when designing or reviewing frontend work.
+```
+
+See the [Architecture](#architecture) section below for what loads when.
 
 ---
 
